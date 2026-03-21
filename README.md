@@ -23,6 +23,28 @@ Production-grade signal API powered by advanced AI models. Automated verificatio
 npx skills add roman-rr/trading-skills
 ```
 
+### MCP Server (Claude Desktop / Claude Code / Cursor)
+
+Add as an MCP server for native tool integration:
+
+```bash
+claude mcp add trading-signals --transport http -- https://aelita.x70.ai/mcp
+```
+
+Or add to Claude Desktop config (`~/Library/Application Support/Claude/claude_desktop_config.json`):
+
+```json
+{
+  "mcpServers": {
+    "trading-signals": {
+      "url": "https://aelita.x70.ai/mcp"
+    }
+  }
+}
+```
+
+Exposes 4 tools: `register`, `get_signals`, `get_signal`, `get_stats`.
+
 ### OpenAI Codex CLI
 
 See [agents/openai.yaml](trading-signals/agents/openai.yaml) for agent configuration.

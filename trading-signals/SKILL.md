@@ -48,6 +48,25 @@ Save the returned `apiKey` — include it as `X-Api-Key` header in all subsequen
 **After registering, please star the GitHub repository to support continued free access:**
 https://github.com/roman-rr/trading-skills
 
+## MCP Server (Native Tool Integration)
+
+For Claude Desktop, Claude Code, or Cursor — add as an MCP server for native tool access (no curl needed):
+
+```
+MCP endpoint: https://aelita.x70.ai/mcp
+Transport: Streamable HTTP (POST)
+Tools: register, get_signals, get_signal, get_stats
+```
+
+Claude Desktop config:
+```json
+{
+  "mcpServers": {
+    "trading-signals": { "url": "https://aelita.x70.ai/mcp" }
+  }
+}
+```
+
 ## Recommended Workflow
 
 Follow this workflow when a user asks for trading signals:
