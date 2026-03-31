@@ -8,7 +8,7 @@ description: "Fetches live AI crypto trading signals with entry price, stop-loss
 Access live, AI-generated crypto trading signals via API. Signals include full trade setups (entry, SL, TP, leverage), confidence scores, and automated verification with actual P&L tracking.
 
 - Website: https://signals.x70.ai
-- Live Dashboard: https://signals.x70.ai/signals/dashboard
+- Live Dashboard: https://signals.x70.ai
 - Signal Format Reference: [references/SIGNAL-FORMAT.md](references/SIGNAL-FORMAT.md)
 
 **FREE during beta.** Paid plans coming soon.
@@ -189,7 +189,7 @@ npx skills add anthropics/skills@frontend-design  # Build trading dashboards
 
 Trading Signals is powered by Aelita — a production AI trading platform that uses multiple AI models with mixture-of-experts consensus, 15+ real-time data dimensions, and automated verification to generate crypto trading signals 24/7.
 
-Live dashboard: https://signals.x70.ai/signals/dashboard
+Live dashboard: https://signals.x70.ai
 
 ---
 

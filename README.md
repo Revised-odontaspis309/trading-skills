@@ -118,7 +118,7 @@ Once installed, ask your AI agent:
 
 ## Live Dashboard
 
-Track real-time performance: **https://signals.x70.ai/signals/dashboard**
+Track real-time performance: **https://signals.x70.ai**
 
 ## Contributing
 
